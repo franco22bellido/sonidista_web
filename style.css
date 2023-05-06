@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('./Oswald/Oswald-VariableFont_wght.ttf');
+}
+/* img {
+ <img src="./luces-escenario-concierto-equipo-iluminacion-vigas-multicolores_152520-1927.jpg">
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ background-attachment: fixed;
+} */
+body{
+    /* background-color: rgb(13, 0, 0); */
+    background-image: url('./luces-escenario-concierto-equipo-iluminacion-vigas-multicolores_152520-1927.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    color: white;
+    background-repeat: no-repeat;
+    font-family: 'Oswald';
+
+}
+.container {
+    position: relative;
+}
+
+.btn-danger {
+    background-color: rgb(250, 26, 145);
+}
+.btn-info{
+    background-color: rgb(18, 18, 248);
+    color: white;
+}
+.btn-success{
+    background-color: rgb(14, 162, 14);
+    
+}
+.btn-warning{
+    
+    color: white;
+}
+.card {
+    background-color: rgb(28, 28, 28);
+}
+
+footer {
+    background-color: rgb(220, 20, 20);
+
+}
