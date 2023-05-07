@@ -48,3 +48,19 @@ footer {
     background-color: rgb(220, 20, 20);
 
 }
+
+
+img {
+    position: static;
+}
+
+.hovers:hover {
+    transition: 0.3s;
+    transform: scale(1.2);        
+}
+@media(min-width: 992px) {
+    .hovers:hover {
+        transition: 0.5s;
+        transform: scale(1.3);        
+    }
+}
